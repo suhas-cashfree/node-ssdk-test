@@ -14,7 +14,7 @@
         "declaration": true,
         "lib": ["dom", "es6", "es5", "dom.iterable", "scripthost"],
         "outDir": "dist",
-        "ignoreDeprecations": "5.0"
+        "ignoreDeprecations": "5.0",
         "typeRoots": [
             "node_modules/@types"
         ]
