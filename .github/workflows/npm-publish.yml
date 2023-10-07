@@ -21,7 +21,7 @@ jobs:
           registry-url: 'https://registry.npmjs.org/'
       - name: Install dependencies and build 🔧
         run: npm install && npm run build
-      - name: Setup Github config
+      - name: Setup Github config 
         run: |
           git config --global user.name 'suhas-cashfree'
           git config --global user.email 'suhas.g@cashfree.com'
