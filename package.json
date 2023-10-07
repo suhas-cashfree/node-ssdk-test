@@ -1,6 +1,6 @@
 {
   "name": "node-ssdk-test",
-  "version": "2.0.15",
+  "version": "2.0.16",
   "description": "OpenAPI client for node-ssdk-test",
   "repository": {
     "type": "git",
@@ -29,5 +29,8 @@
   "devDependencies": {
     "@types/node": "^12.11.5",
     "typescript": "^4.0"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/suhas-cashfree/"
   }
 }
