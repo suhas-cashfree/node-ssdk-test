@@ -18,6 +18,7 @@ jobs:
           node-version: 12
           registry-url: 'https://registry.npmjs.org'
       - run: npm install
+      - run: npm login --registry=https://npm.pkg.github.com --scope=@suhas_cashfree --always-auth --auth-only
       - run: npm publish --access public
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
