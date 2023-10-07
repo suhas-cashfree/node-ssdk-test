@@ -1,5 +1,5 @@
 {
-  "name": "node-ssdk-test",
+  "name": "@suhas_cashfree/node-ssdk-test",
   "version": "2.0.13",
   "description": "OpenAPI client for node-ssdk-test",
   "repository": {
