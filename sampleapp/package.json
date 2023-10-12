@@ -1,0 +1,20 @@
+{
+  "name": "newnodesdk",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://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@github.com/suhas-cashfree/node-ssdk-test.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/suhas-cashfree/node-ssdk-test/issues"
+  },
+  "homepage": "https://github.com/suhas-cashfree/node-ssdk-test#readme"
+}
