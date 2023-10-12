@@ -18,7 +18,7 @@ jobs:
       uses: actions/setup-node@v3
       with:
         node-version: '20.*'
-        cache: 'npm'
+    - run: ls
     - run: npm install node-ssdk-test@dev
     - run: npm run build --if-present
     - run: npm test
