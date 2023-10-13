@@ -19,6 +19,7 @@ jobs:
           registry-url: 'https://registry.npmjs.org'
       - run: npm install
       - run: npm publish --tag dev --access public
+      - run: echo "Current branch -> ${GITHUB_REF/refs/heads/}"
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
           NPM_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
